@@ -2,7 +2,7 @@
 
 ## Module 
 - What is javascript ?
-- [Javascript data types](#Javascript data types).
+- Javascript data types.
 - String
 - Number
 - Boolean
@@ -16,13 +16,33 @@ JavaScript is a high-level, interpreted programming language that is one of the 
 ### Javascript data types.
 | Primitive Data Types |  Non-Primitive Data Types |
 | :-------- | :------------------------- |
-| Number | Object |
-| String | Array |
+| String | Object |
+| Number | Array |
 | Boolean |  
 | Null |  
 | Undefined | 
 | Symbol | 
 | BigInt |  
+
+## JavaScript String
+In JavaScript, strings are used to represent and manipulate text. A string is a sequence of characters enclosed in single quotes ('), double quotes ("), or backticks (`)
+
+<details>
+  <summary><b>
+    1. Write a function to reverse a given string.   <br> Input : hello <br> Output: olleh
+  </b></summary>
+    <p>
+        ```       
+          function reverseString(str) {
+              return str.split('').reverse().join('');
+          }
+          
+          console.log(reverseString("hello"));
+      ```
+    </p>
+</details>
+
+
 ### Number methods with problem solving
 ### Boolean methods with problem solving
 
